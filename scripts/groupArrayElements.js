@@ -38,6 +38,8 @@ function printResult(result) {
 /* Very basic UI for example functionality */
 const submitBtn = document.getElementById('submit');
 
+/* There's no error-checking on submit here. Normally, I'd add this. */
+
 submitBtn.addEventListener('click', function(e) {
     e.preventDefault();
     const numArray = document.getElementById('arr').value.split(',');
